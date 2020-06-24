@@ -1,0 +1,33 @@
+/* This is CSS variables in CSS style. Since they are variables, they are changable! */
+
+:root{
+    --bgcolor: #e8ba13;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+.hl{
+    color: var(--bgcolor);
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--bgcolor);
+    filter: blur(var(--blur));
+}
+
+body{
+    background: rgb(9, 42, 77);
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
+
+input{
+    width: 100px;
+}

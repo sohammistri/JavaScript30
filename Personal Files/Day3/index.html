@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variables</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Update CSS variables using <span class="hl">JS</span></h1>
+
+    <div class='controls'>
+        <label for='spacing'>Spacing</label>
+        <input id='spacing' type="range" min="10" max="200" value="10" data-sizing='px'>
+
+        <label for='blur'>Blur</label>
+        <input id='blur' type="range" min='0' max='200' value="10" data-sizing="px">
+
+        <label for='bgcolor'>Background</label>
+        <input id='bgcolor' type="color" value="#e8ba13">
+    </div>
+
+    <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
+
+    <script src="main.js"></script>
+
+</body>
+</html>
